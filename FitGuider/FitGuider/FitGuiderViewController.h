@@ -10,5 +10,7 @@
 
 @interface FitGuiderViewController : UIViewController
 test
+tst
+dttadsfasdf
 
 @end
