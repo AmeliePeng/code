@@ -9,9 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface FitGuiderViewController : UIViewController
-<<<<<<< HEAD
 
-=======
-master code by amelie
->>>>>>> FETCH_HEAD
 @end

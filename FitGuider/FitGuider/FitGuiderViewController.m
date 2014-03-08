@@ -9,13 +9,6 @@
 #import "FitGuiderViewController.h"
 
 @interface FitGuiderViewController ()
-<<<<<<< HEAD
-{
-    int a;
-}
-=======
-dsfsadfasdfasdfadf
->>>>>>> FETCH_HEAD
 @end
 
 @implementation FitGuiderViewController
