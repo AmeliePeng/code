@@ -10,4 +10,5 @@
 
 @interface FitGuiderViewController : UIViewController
 //Add master by Aaron Yang
+
 @end

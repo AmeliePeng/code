@@ -9,7 +9,6 @@
 #import "FitGuiderViewController.h"
 
 @interface FitGuiderViewController ()
-
 @end
 
 @implementation FitGuiderViewController
