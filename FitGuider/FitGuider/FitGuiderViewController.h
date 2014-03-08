@@ -10,9 +10,17 @@
 
 @interface FitGuiderViewController : UIViewController
 <<<<<<< HEAD
+<<<<<<< HEAD
 ADKJFHAW
 =======
 
 
+>>>>>>> master
+=======
+
+
+=======
+ADKJFHAW
+>>>>>>> 64
 >>>>>>> master
 @end
