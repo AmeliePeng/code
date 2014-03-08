@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface FitGuiderViewController : UIViewController
+<<<<<<< HEAD
 
+=======
+//Add master by Aaron Yang
+>>>>>>> hi_man
 @end
