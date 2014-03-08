@@ -9,10 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface FitGuiderViewController : UIViewController
-<<<<<<< HEAD
 
-
-=======
-ADKJFHAW
->>>>>>> 64
 @end
