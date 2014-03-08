@@ -9,7 +9,10 @@
 #import "FitGuiderViewController.h"
 
 @interface FitGuiderViewController ()
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5be7c3e461e88654c9e2947c0312e51bc350749c
 @end
 
 @implementation FitGuiderViewController
