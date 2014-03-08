@@ -9,8 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface FitGuiderViewController : UIViewController
-test
-tst
-dttadsfasdf
-
+master code by amelie
 @end

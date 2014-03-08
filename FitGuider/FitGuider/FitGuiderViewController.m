@@ -9,7 +9,11 @@
 #import "FitGuiderViewController.h"
 
 @interface FitGuiderViewController ()
+<<<<<<< HEAD
 mine branch
+=======
+dsfsadfasdfasdfadf
+>>>>>>> master
 @end
 
 @implementation FitGuiderViewController
