@@ -22,6 +22,16 @@
 		AAAEB70718CB683300EB38D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAEB6E618CB683300EB38D3 /* UIKit.framework */; };
 		AAAEB70F18CB683300EB38D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAAEB70D18CB683300EB38D3 /* InfoPlist.strings */; };
 		AAAEB71118CB683300EB38D3 /* FitGuiderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAEB71018CB683300EB38D3 /* FitGuiderTests.m */; };
+		CD1B072318CE65F800A9AE2A /* sample.gif in Resources */ = {isa = PBXBuildFile; fileRef = CD1B072118CE65F800A9AE2A /* sample.gif */; };
+		CD1B072418CE65F800A9AE2A /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD1B072218CE65F800A9AE2A /* SampleData.plist */; };
+		CD1B072818CE66A200A9AE2A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1B072618CE66A200A9AE2A /* DetailViewController.m */; };
+		CD1B072918CE66A200A9AE2A /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD1B072718CE66A200A9AE2A /* DetailViewController.xib */; };
+		CD1B072D18CE66AA00A9AE2A /* SampleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1B072B18CE66AA00A9AE2A /* SampleCell.m */; };
+		CD1B072E18CE66AA00A9AE2A /* SampleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD1B072C18CE66AA00A9AE2A /* SampleCell.xib */; };
+		CD1B073418CE66C700A9AE2A /* Bunny.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1B073018CE66C700A9AE2A /* Bunny.png */; };
+		CD1B073518CE66C700A9AE2A /* images-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD1B073118CE66C700A9AE2A /* images-1.jpeg */; };
+		CD1B073618CE66C700A9AE2A /* images-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD1B073218CE66C700A9AE2A /* images-2.jpeg */; };
+		CD1B073718CE66C700A9AE2A /* images-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD1B073318CE66C700A9AE2A /* images-3.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +65,18 @@
 		AAAEB70C18CB683300EB38D3 /* FitGuiderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FitGuiderTests-Info.plist"; sourceTree = "<group>"; };
 		AAAEB70E18CB683300EB38D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AAAEB71018CB683300EB38D3 /* FitGuiderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitGuiderTests.m; sourceTree = "<group>"; };
+		CD1B072118CE65F800A9AE2A /* sample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sample.gif; sourceTree = "<group>"; };
+		CD1B072218CE65F800A9AE2A /* SampleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleData.plist; sourceTree = "<group>"; };
+		CD1B072518CE66A200A9AE2A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CD1B072618CE66A200A9AE2A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CD1B072718CE66A200A9AE2A /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		CD1B072A18CE66AA00A9AE2A /* SampleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCell.h; sourceTree = "<group>"; };
+		CD1B072B18CE66AA00A9AE2A /* SampleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleCell.m; sourceTree = "<group>"; };
+		CD1B072C18CE66AA00A9AE2A /* SampleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleCell.xib; sourceTree = "<group>"; };
+		CD1B073018CE66C700A9AE2A /* Bunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bunny.png; sourceTree = "<group>"; };
+		CD1B073118CE66C700A9AE2A /* images-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-1.jpeg"; sourceTree = "<group>"; };
+		CD1B073218CE66C700A9AE2A /* images-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-2.jpeg"; sourceTree = "<group>"; };
+		CD1B073318CE66C700A9AE2A /* images-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-3.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +106,9 @@
 		AAAEB6D618CB683300EB38D3 = {
 			isa = PBXGroup;
 			children = (
+				CD1B072F18CE66B000A9AE2A /* Sample Images */,
+				CD1B072118CE65F800A9AE2A /* sample.gif */,
+				CD1B072218CE65F800A9AE2A /* SampleData.plist */,
 				AAAEB6E818CB683300EB38D3 /* FitGuider */,
 				AAAEB70A18CB683300EB38D3 /* FitGuiderTests */,
 				AAAEB6E118CB683300EB38D3 /* Frameworks */,
@@ -114,12 +139,7 @@
 		AAAEB6E818CB683300EB38D3 /* FitGuider */ = {
 			isa = PBXGroup;
 			children = (
-				AAAEB6F118CB683300EB38D3 /* FitGuiderAppDelegate.h */,
-				AAAEB6F218CB683300EB38D3 /* FitGuiderAppDelegate.m */,
-				AAAEB6F418CB683300EB38D3 /* Main_iPhone.storyboard */,
-				AAAEB6F718CB683300EB38D3 /* Main_iPad.storyboard */,
-				AAAEB6FA18CB683300EB38D3 /* FitGuiderViewController.h */,
-				AAAEB6FB18CB683300EB38D3 /* FitGuiderViewController.m */,
+				CD1B073818CE66E400A9AE2A /* MainView */,
 				AAAEB6FD18CB683300EB38D3 /* Images.xcassets */,
 				AAAEB6E918CB683300EB38D3 /* Supporting Files */,
 			);
@@ -153,6 +173,36 @@
 				AAAEB70D18CB683300EB38D3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD1B072F18CE66B000A9AE2A /* Sample Images */ = {
+			isa = PBXGroup;
+			children = (
+				CD1B073018CE66C700A9AE2A /* Bunny.png */,
+				CD1B073118CE66C700A9AE2A /* images-1.jpeg */,
+				CD1B073218CE66C700A9AE2A /* images-2.jpeg */,
+				CD1B073318CE66C700A9AE2A /* images-3.jpeg */,
+			);
+			name = "Sample Images";
+			sourceTree = "<group>";
+		};
+		CD1B073818CE66E400A9AE2A /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				AAAEB6F118CB683300EB38D3 /* FitGuiderAppDelegate.h */,
+				AAAEB6F218CB683300EB38D3 /* FitGuiderAppDelegate.m */,
+				CD1B072A18CE66AA00A9AE2A /* SampleCell.h */,
+				CD1B072B18CE66AA00A9AE2A /* SampleCell.m */,
+				CD1B072C18CE66AA00A9AE2A /* SampleCell.xib */,
+				CD1B072518CE66A200A9AE2A /* DetailViewController.h */,
+				CD1B072618CE66A200A9AE2A /* DetailViewController.m */,
+				CD1B072718CE66A200A9AE2A /* DetailViewController.xib */,
+				AAAEB6F418CB683300EB38D3 /* Main_iPhone.storyboard */,
+				AAAEB6F718CB683300EB38D3 /* Main_iPad.storyboard */,
+				AAAEB6FA18CB683300EB38D3 /* FitGuiderViewController.h */,
+				AAAEB6FB18CB683300EB38D3 /* FitGuiderViewController.m */,
+			);
+			name = MainView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,10 +282,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD1B073418CE66C700A9AE2A /* Bunny.png in Resources */,
+				CD1B072418CE65F800A9AE2A /* SampleData.plist in Resources */,
+				CD1B072E18CE66AA00A9AE2A /* SampleCell.xib in Resources */,
 				AAAEB6F918CB683300EB38D3 /* Main_iPad.storyboard in Resources */,
+				CD1B072918CE66A200A9AE2A /* DetailViewController.xib in Resources */,
 				AAAEB6FE18CB683300EB38D3 /* Images.xcassets in Resources */,
 				AAAEB6F618CB683300EB38D3 /* Main_iPhone.storyboard in Resources */,
+				CD1B073718CE66C700A9AE2A /* images-3.jpeg in Resources */,
 				AAAEB6ED18CB683300EB38D3 /* InfoPlist.strings in Resources */,
+				CD1B073618CE66C700A9AE2A /* images-2.jpeg in Resources */,
+				CD1B072318CE65F800A9AE2A /* sample.gif in Resources */,
+				CD1B073518CE66C700A9AE2A /* images-1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +312,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD1B072D18CE66AA00A9AE2A /* SampleCell.m in Sources */,
 				AAAEB6FC18CB683300EB38D3 /* FitGuiderViewController.m in Sources */,
 				AAAEB6F318CB683300EB38D3 /* FitGuiderAppDelegate.m in Sources */,
 				AAAEB6EF18CB683300EB38D3 /* main.m in Sources */,
+				CD1B072818CE66A200A9AE2A /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +535,7 @@
 				AAAEB71618CB683300EB38D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAAEB71718CB683300EB38D3 /* Build configuration list for PBXNativeTarget "FitGuiderTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +544,7 @@
 				AAAEB71918CB683300EB38D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
