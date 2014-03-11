@@ -9,10 +9,7 @@
 #import "FitGuiderViewController.h"
 
 @interface FitGuiderViewController ()
-<<<<<<< HEAD
 
-=======
->>>>>>> 5be7c3e461e88654c9e2947c0312e51bc350749c
 @end
 
 @implementation FitGuiderViewController
@@ -21,7 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-}
+    }
 
 - (void)didReceiveMemoryWarning
 {
