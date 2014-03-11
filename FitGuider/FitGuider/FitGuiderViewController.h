@@ -10,7 +10,7 @@
 
 @interface FitGuiderViewController : UIViewController
 
+@property (retain, nonatomic) IBOutlet UILabel *selectedIndex;
 //Add master by Aaron Yang
-aaaa
 
 @end
