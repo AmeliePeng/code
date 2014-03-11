@@ -7,12 +7,23 @@
 //
 
 #import "FitGuiderAppDelegate.h"
-
+#import "FitGuiderViewController.h"
 @implementation FitGuiderAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    
+//    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:[NSBundle mainBundle]];
+//    
+//    UINavigationController *navigationController = (UINavigationController*)[storyboard instantiateViewControllerWithIdentifier: @"Main_iPhone"];
+//    navigationController.navigationBarHidden = YES;
+//    
+//    self.window.rootViewController = navigationController;
+//    //self.window.rootViewController=[storyboard instantiateInitialViewController];
+//    
+//    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 							
