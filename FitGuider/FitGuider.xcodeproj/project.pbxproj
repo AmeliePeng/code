@@ -32,6 +32,7 @@
 		CD1B073518CE66C700A9AE2A /* images-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD1B073118CE66C700A9AE2A /* images-1.jpeg */; };
 		CD1B073618CE66C700A9AE2A /* images-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD1B073218CE66C700A9AE2A /* images-2.jpeg */; };
 		CD1B073718CE66C700A9AE2A /* images-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD1B073318CE66C700A9AE2A /* images-3.jpeg */; };
+		CD95559418D2300400D96893 /* ADTickerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD95559318D2300400D96893 /* ADTickerLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,8 @@
 		CD1B073118CE66C700A9AE2A /* images-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-1.jpeg"; sourceTree = "<group>"; };
 		CD1B073218CE66C700A9AE2A /* images-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-2.jpeg"; sourceTree = "<group>"; };
 		CD1B073318CE66C700A9AE2A /* images-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-3.jpeg"; sourceTree = "<group>"; };
+		CD95559218D2300400D96893 /* ADTickerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTickerLabel.h; sourceTree = "<group>"; };
+		CD95559318D2300400D96893 /* ADTickerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTickerLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,7 @@
 		AAAEB6D618CB683300EB38D3 = {
 			isa = PBXGroup;
 			children = (
+				CD95559118D22FD300D96893 /* ADTickerLabel */,
 				CD1B072F18CE66B000A9AE2A /* Sample Images */,
 				CD1B072118CE65F800A9AE2A /* sample.gif */,
 				CD1B072218CE65F800A9AE2A /* SampleData.plist */,
@@ -203,6 +207,15 @@
 				AAAEB6FB18CB683300EB38D3 /* FitGuiderViewController.m */,
 			);
 			name = MainView;
+			sourceTree = "<group>";
+		};
+		CD95559118D22FD300D96893 /* ADTickerLabel */ = {
+			isa = PBXGroup;
+			children = (
+				CD95559218D2300400D96893 /* ADTickerLabel.h */,
+				CD95559318D2300400D96893 /* ADTickerLabel.m */,
+			);
+			name = ADTickerLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD1B072D18CE66AA00A9AE2A /* SampleCell.m in Sources */,
+				CD95559418D2300400D96893 /* ADTickerLabel.m in Sources */,
 				AAAEB6FC18CB683300EB38D3 /* FitGuiderViewController.m in Sources */,
 				AAAEB6F318CB683300EB38D3 /* FitGuiderAppDelegate.m in Sources */,
 				AAAEB6EF18CB683300EB38D3 /* main.m in Sources */,
