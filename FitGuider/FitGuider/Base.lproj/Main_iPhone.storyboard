@@ -19,10 +19,10 @@
             </objects>
             <point key="canvasLocation" x="-314" y="-297"/>
         </scene>
-        <!--Fit Guider View Controller-->
+        <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="FitGuiderViewController" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Mfd-X4-Ac5"/>
                         <viewControllerLayoutGuide type="bottom" id="dYM-se-eTy"/>

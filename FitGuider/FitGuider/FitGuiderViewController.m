@@ -10,33 +10,29 @@
 #import "SampleCell.h"
 #import "DetailViewController.h"
 #import "ADTickerLabel.h"
+#import "FDGraphView.h"
+#import "FDGraphScrollView.h"
 
 
-<<<<<<< HEAD
 @interface FitGuiderViewController ()
 
-=======
->>>>>>> hi_man
+
 #define TABLE_HEIGHT 80
 
 @end
 @interface FitGuiderViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, retain) NSMutableArray* arrayForPlaces;
-<<<<<<< HEAD
-=======
+
 @property (nonatomic, strong) ADTickerLabel *firstTickerLabel;
 @property (nonatomic, strong) ADTickerLabel *secondTickerLabel;
 @property (nonatomic, strong) NSArray *numbersArray;
 @property (nonatomic, unsafe_unretained) NSInteger currentIndex;
->>>>>>> hi_man
+
 
 @end
 @interface FitGuiderViewController ()
 
-<<<<<<< HEAD
 
-=======
->>>>>>> hi_man
 @end
 
 @implementation FitGuiderViewController
@@ -49,10 +45,9 @@
     NSMutableDictionary *plistDict = [[NSMutableDictionary alloc] initWithContentsOfFile:plistPath];
     self.arrayForPlaces = [plistDict objectForKey:@"Data"];
     
-<<<<<<< HEAD
+
 	// Do any additional setup after loading the view, typically from a nib.
-    }
-=======
+
 //
     self.currentIndex = 0;
     self.numbersArray = @[@0, @1, @2, @3, @4, @5, @6, @7, @8, @9];
@@ -65,8 +60,17 @@
     self.firstTickerLabel.changeTextAnimationDuration = 0.3;
     [self.view addSubview: self.firstTickerLabel];
     self.firstTickerLabel.text = [NSString stringWithFormat:@"%@", @"0"];
+    
+    //FDGraphScrollView
+    /*FDGraphScrollView *scrollView = [[FDGraphScrollView alloc] initWithFrame:CGRectMake(10, 130, 200, 100)];
+    
+    // data
+    scrollView.dataPoints = @[@10, @2, @5, @12, @30, @100, @123];
+    
+    [self.view addSubview:scrollView];*/
+
 }
->>>>>>> hi_man
+
 
 - (void)didReceiveMemoryWarning
 {
