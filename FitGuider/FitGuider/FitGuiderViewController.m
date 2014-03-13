@@ -10,25 +10,18 @@
 #import "SampleCell.h"
 #import "DetailViewController.h"
 
-<<<<<<< HEAD
 @interface FitGuiderViewController ()
 
-=======
-<<<<<<< HEAD
 #define TABLE_HEIGHT 80
 
+@end
 @interface FitGuiderViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, retain) NSMutableArray* arrayForPlaces;
-=======
+
+@end
 @interface FitGuiderViewController ()
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5be7c3e461e88654c9e2947c0312e51bc350749c
->>>>>>> FETCH_HEAD
->>>>>>> 7da0ac1db226a8ed15be68d0189a5d0a50dec914
->>>>>>> master
+
 @end
 
 @implementation FitGuiderViewController

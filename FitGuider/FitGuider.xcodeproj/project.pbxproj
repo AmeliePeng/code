@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA5ABEDF18CF615F002FC008 /* WeightChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5ABEDE18CF615F002FC008 /* WeightChart.m */; };
 		AAAEB6E318CB683300EB38D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAEB6E218CB683300EB38D3 /* Foundation.framework */; };
 		AAAEB6E518CB683300EB38D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAEB6E418CB683300EB38D3 /* CoreGraphics.framework */; };
 		AAAEB6E718CB683300EB38D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAEB6E618CB683300EB38D3 /* UIKit.framework */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA5ABEDD18CF615F002FC008 /* WeightChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightChart.h; sourceTree = "<group>"; };
+		AA5ABEDE18CF615F002FC008 /* WeightChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightChart.m; sourceTree = "<group>"; };
 		AAAEB6DF18CB683300EB38D3 /* FitGuider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitGuider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAAEB6E218CB683300EB38D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AAAEB6E418CB683300EB38D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -201,6 +204,8 @@
 				AAAEB6F718CB683300EB38D3 /* Main_iPad.storyboard */,
 				AAAEB6FA18CB683300EB38D3 /* FitGuiderViewController.h */,
 				AAAEB6FB18CB683300EB38D3 /* FitGuiderViewController.m */,
+				AA5ABEDD18CF615F002FC008 /* WeightChart.h */,
+				AA5ABEDE18CF615F002FC008 /* WeightChart.m */,
 			);
 			name = MainView;
 			sourceTree = "<group>";
@@ -314,6 +319,7 @@
 			files = (
 				CD1B072D18CE66AA00A9AE2A /* SampleCell.m in Sources */,
 				AAAEB6FC18CB683300EB38D3 /* FitGuiderViewController.m in Sources */,
+				AA5ABEDF18CF615F002FC008 /* WeightChart.m in Sources */,
 				AAAEB6F318CB683300EB38D3 /* FitGuiderAppDelegate.m in Sources */,
 				AAAEB6EF18CB683300EB38D3 /* main.m in Sources */,
 				CD1B072818CE66A200A9AE2A /* DetailViewController.m in Sources */,
