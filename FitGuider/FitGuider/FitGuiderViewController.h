@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface FitGuiderViewController : UIViewController
+//Add master by Aaron Yang
+- (IBAction)lastNumberAdd:(id)sender;
+- (IBAction)lastNumberMinus:(id)sender;
 
 @end
