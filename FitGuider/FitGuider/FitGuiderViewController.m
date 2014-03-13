@@ -9,19 +9,34 @@
 #import "FitGuiderViewController.h"
 #import "SampleCell.h"
 #import "DetailViewController.h"
+#import "ADTickerLabel.h"
 
+
+<<<<<<< HEAD
 @interface FitGuiderViewController ()
 
+=======
+>>>>>>> hi_man
 #define TABLE_HEIGHT 80
 
 @end
 @interface FitGuiderViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, retain) NSMutableArray* arrayForPlaces;
+<<<<<<< HEAD
+=======
+@property (nonatomic, strong) ADTickerLabel *firstTickerLabel;
+@property (nonatomic, strong) ADTickerLabel *secondTickerLabel;
+@property (nonatomic, strong) NSArray *numbersArray;
+@property (nonatomic, unsafe_unretained) NSInteger currentIndex;
+>>>>>>> hi_man
 
 @end
 @interface FitGuiderViewController ()
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> hi_man
 @end
 
 @implementation FitGuiderViewController
@@ -34,8 +49,24 @@
     NSMutableDictionary *plistDict = [[NSMutableDictionary alloc] initWithContentsOfFile:plistPath];
     self.arrayForPlaces = [plistDict objectForKey:@"Data"];
     
+<<<<<<< HEAD
 	// Do any additional setup after loading the view, typically from a nib.
     }
+=======
+//
+    self.currentIndex = 0;
+    self.numbersArray = @[@0, @1, @2, @3, @4, @5, @6, @7, @8, @9];
+    
+    UIFont *font = [UIFont boldSystemFontOfSize: 30];
+    
+    self.firstTickerLabel = [[ADTickerLabel alloc] initWithFrame: CGRectMake(180, 50, 0, font.lineHeight)];
+    self.firstTickerLabel.font = font;
+    self.firstTickerLabel.characterWidth = 22;
+    self.firstTickerLabel.changeTextAnimationDuration = 0.3;
+    [self.view addSubview: self.firstTickerLabel];
+    self.firstTickerLabel.text = [NSString stringWithFormat:@"%@", @"0"];
+}
+>>>>>>> hi_man
 
 - (void)didReceiveMemoryWarning
 {
@@ -92,6 +123,31 @@
     
     
     //detailViewController.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal; [self presentViewController:detailViewController animated:YES completion:nil];
+}
+
+/*
+*
+*
+*
+*/
+- (IBAction)lastNumberAdd:(id)sender{
+    //[self.firstTickerLabel setScrollDirection:ADTickerLabelScrollDirectionUp];
+    self.currentIndex++;
+    if(self.currentIndex == [self.numbersArray count])
+        self.currentIndex = 0;
+    self.firstTickerLabel.text = [NSString stringWithFormat:@"%@", self.numbersArray[self.currentIndex]];
+    
+    
+    
+}
+
+
+- (IBAction)lastNumberMinus:(id)sender {
+    //[self.firstTickerLabel setScrollDirection:ADTickerLabelScrollDirectionDown];
+    if(self.currentIndex == 0)
+        self.currentIndex = [self.numbersArray count];
+    self.currentIndex--;
+    self.firstTickerLabel.text = [NSString stringWithFormat:@"%@", self.numbersArray[self.currentIndex]];
 }
 
 @end

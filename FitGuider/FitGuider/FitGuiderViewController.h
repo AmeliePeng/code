@@ -9,8 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface FitGuiderViewController : UIViewController
+<<<<<<< HEAD
 
 @property (retain, nonatomic) IBOutlet UILabel *selectedIndex;
 
+=======
+//Add master by Aaron Yang
+- (IBAction)lastNumberAdd:(id)sender;
+- (IBAction)lastNumberMinus:(id)sender;
+>>>>>>> hi_man
 
 @end
