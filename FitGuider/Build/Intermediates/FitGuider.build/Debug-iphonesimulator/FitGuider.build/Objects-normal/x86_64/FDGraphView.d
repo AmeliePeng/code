@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/aaronyang/Downloads/FitGuider/FitGuider/FDGraphView.m \
-  /Users/aaronyang/Downloads/FitGuider/FitGuider/FDGraphView.h
+  /Users/aaronyang/Desktop/code/FitGuider/FitGuider/FDGraphView.m \
+  /Users/aaronyang/Desktop/code/FitGuider/FitGuider/FDGraphView.h

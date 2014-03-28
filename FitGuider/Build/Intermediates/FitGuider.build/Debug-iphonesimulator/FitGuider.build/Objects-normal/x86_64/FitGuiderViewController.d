@@ -1,9 +1,9 @@
 dependencies: \
-  /Users/aaronyang/Downloads/FitGuider/FitGuider/FitGuiderViewController.m \
-  /Users/aaronyang/Downloads/FitGuider/FitGuider/FitGuiderViewController.h \
-  /Users/aaronyang/Downloads/FitGuider/FitGuider/SampleCell.h \
-  /Users/aaronyang/Downloads/FitGuider/FitGuider/DetailViewController.h \
-  /Users/aaronyang/Downloads/FitGuider/ADTickerLabel.h \
-  /Users/aaronyang/Downloads/FitGuider/FitGuider/FDGraphView.h \
-  /Users/aaronyang/Downloads/FitGuider/FitGuider/FDGraphScrollView.h \
-  /Users/aaronyang/Downloads/FitGuider/FitGuider/MWWindow.h
+  /Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderViewController.m \
+  /Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderViewController.h \
+  /Users/aaronyang/Desktop/code/FitGuider/FitGuider/SampleCell.h \
+  /Users/aaronyang/Desktop/code/FitGuider/FitGuider/DetailViewController.h \
+  /Users/aaronyang/Desktop/code/FitGuider/ADTickerLabel.h \
+  /Users/aaronyang/Desktop/code/FitGuider/FitGuider/FDGraphView.h \
+  /Users/aaronyang/Desktop/code/FitGuider/FitGuider/FDGraphScrollView.h \
+  /Users/aaronyang/Desktop/code/FitGuider/FitGuider/MWWindow.h

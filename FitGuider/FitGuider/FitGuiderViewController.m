@@ -54,17 +54,17 @@ NSInteger installOnce = 0;
     
 
 //
-    self.currentIndex = 0;
-    self.numbersArray = @[@0, @1, @2, @3, @4, @5, @6, @7, @8, @9];
-    
-    UIFont *font = [UIFont boldSystemFontOfSize: 30];
-    
-    self.firstTickerLabel = [[ADTickerLabel alloc] initWithFrame: CGRectMake(180, 50, 0, font.lineHeight)];
-    self.firstTickerLabel.font = font;
-    self.firstTickerLabel.characterWidth = 22;
-    self.firstTickerLabel.changeTextAnimationDuration = 0.3;
-    [self.view addSubview: self.firstTickerLabel];
-    self.firstTickerLabel.text = [NSString stringWithFormat:@"%@", @"0"];
+//    self.currentIndex = 0;
+//    self.numbersArray = @[@0, @1, @2, @3, @4, @5, @6, @7, @8, @9];
+//    
+//    UIFont *font = [UIFont boldSystemFontOfSize: 30];
+//    
+//    self.firstTickerLabel = [[ADTickerLabel alloc] initWithFrame: CGRectMake(180, 50, 0, font.lineHeight)];
+//    self.firstTickerLabel.font = font;
+//    self.firstTickerLabel.characterWidth = 22;
+//    self.firstTickerLabel.changeTextAnimationDuration = 0.3;
+//    [self.view addSubview: self.firstTickerLabel];
+//    self.firstTickerLabel.text = [NSString stringWithFormat:@"%@", @"0"];
     
     [self readDict];
 

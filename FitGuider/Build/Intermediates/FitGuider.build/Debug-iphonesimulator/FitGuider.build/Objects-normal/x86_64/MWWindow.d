@@ -1,2 +1,3 @@
-dependencies: /Users/aaronyang/Downloads/FitGuider/FitGuider/MWWindow.m \
-  /Users/aaronyang/Downloads/FitGuider/FitGuider/MWWindow.h
+dependencies: \
+  /Users/aaronyang/Desktop/code/FitGuider/FitGuider/MWWindow.m \
+  /Users/aaronyang/Desktop/code/FitGuider/FitGuider/MWWindow.h

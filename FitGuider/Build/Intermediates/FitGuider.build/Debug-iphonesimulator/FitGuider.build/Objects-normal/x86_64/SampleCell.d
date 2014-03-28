@@ -1,2 +1,3 @@
-dependencies: /Users/aaronyang/Downloads/FitGuider/FitGuider/SampleCell.m \
-  /Users/aaronyang/Downloads/FitGuider/FitGuider/SampleCell.h
+dependencies: \
+  /Users/aaronyang/Desktop/code/FitGuider/FitGuider/SampleCell.m \
+  /Users/aaronyang/Desktop/code/FitGuider/FitGuider/SampleCell.h

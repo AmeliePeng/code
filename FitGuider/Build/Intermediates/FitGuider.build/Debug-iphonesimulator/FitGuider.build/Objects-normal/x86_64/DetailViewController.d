@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/aaronyang/Downloads/FitGuider/FitGuider/DetailViewController.m \
-  /Users/aaronyang/Downloads/FitGuider/FitGuider/DetailViewController.h
+  /Users/aaronyang/Desktop/code/FitGuider/FitGuider/DetailViewController.m \
+  /Users/aaronyang/Desktop/code/FitGuider/FitGuider/DetailViewController.h

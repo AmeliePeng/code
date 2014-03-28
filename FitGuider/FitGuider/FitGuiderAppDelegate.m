@@ -8,8 +8,15 @@
 
 #import "FitGuiderAppDelegate.h"
 #import "FitGuiderViewController.h"
-@implementation FitGuiderAppDelegate
+#import "ADTickerLabel.h"
 
+@implementation FitGuiderAppDelegate
+NSMutableArray* arrayForPlaces;
+ADTickerLabel *firstTickerLabel;
+ADTickerLabel *secondTickerLabel;
+NSArray *numbersArray;
+NSInteger currentIndex;
+NSInteger weight;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -24,6 +31,21 @@
 //    //self.window.rootViewController=[storyboard instantiateInitialViewController];
 //    
 //    [self.window makeKeyAndVisible];
+    currentIndex = 0;
+    numbersArray = @[@0, @1, @2, @3, @4, @5, @6, @7, @8, @9];
+    
+    UIFont *font = [UIFont boldSystemFontOfSize: 30];
+    
+    firstTickerLabel = [[ADTickerLabel alloc] initWithFrame: CGRectMake(180, 50, 0, font.lineHeight)];
+    firstTickerLabel.font = font;
+    firstTickerLabel.characterWidth = 22;
+    firstTickerLabel.changeTextAnimationDuration = 0.3;
+    [self.window addSubview: firstTickerLabel];
+    firstTickerLabel.text = [NSString stringWithFormat:@"%@", @"0"];
+    
+    //[self readDict];
+    
+    
     
     return YES;
 }
