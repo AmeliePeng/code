@@ -39,6 +39,7 @@
 @implementation FitGuiderViewController
 
 NSInteger installOnce = 0;
+NSInteger firstView = 0;
 -(void)updateWeightChart
 {
     
@@ -48,25 +49,29 @@ NSInteger installOnce = 0;
 {
     [super viewDidLoad];
     
-    NSString* plistPath = [[NSBundle mainBundle] pathForResource:@"SampleData" ofType:@"plist"];
-    NSMutableDictionary *plistDict = [[NSMutableDictionary alloc] initWithContentsOfFile:plistPath];
-    self.arrayForPlaces = [plistDict objectForKey:@"Data"];
+    //Only load the line and number of the weight once.
+    if(firstView == 0)
+    {
+        //Load the data of the table
+        [self loadDataOfTable];
+        //End load the data of the table
     
 
-//
-//    self.currentIndex = 0;
-//    self.numbersArray = @[@0, @1, @2, @3, @4, @5, @6, @7, @8, @9];
-//    
-//    UIFont *font = [UIFont boldSystemFontOfSize: 30];
-//    
-//    self.firstTickerLabel = [[ADTickerLabel alloc] initWithFrame: CGRectMake(180, 50, 0, font.lineHeight)];
-//    self.firstTickerLabel.font = font;
-//    self.firstTickerLabel.characterWidth = 22;
-//    self.firstTickerLabel.changeTextAnimationDuration = 0.3;
-//    [self.view addSubview: self.firstTickerLabel];
-//    self.firstTickerLabel.text = [NSString stringWithFormat:@"%@", @"0"];
+        //Install the number of the weight
+        [self loadNumberWeight];
+        //End install the number of the weight
+
+        //Add the line
+        [self readDict];
+        //End add the line
+        
+        //Load a button for test
+        //[self loadAButton];
+        
+        //Set firstView to 1, in order to add the line and
+        firstView = 1;
+    }
     
-    [self readDict];
 
 }
 
@@ -76,7 +81,7 @@ NSInteger installOnce = 0;
     {
         
         _nextWindow = [[MWWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-        [_nextWindow setBackgroundColor:[self randomColor]];
+        
         _nextWindow.windowLevel = UIWindowLevelStatusBar;
         
         FitGuiderViewController *vc = [[FitGuiderViewController  alloc] initWithNibName:@"FitGuiderViewController" bundle:nil];
@@ -91,15 +96,38 @@ NSInteger installOnce = 0;
     }
 }
 
-- (UIColor *)randomColor {
-    CGFloat hue = ( arc4random() % 256 / 256.0 );  //  0.0 to 1.0
-    CGFloat saturation = ( arc4random() % 128 / 256.0 ) + 0.5;  //  0.5 to 1.0, away from white
-    CGFloat brightness = ( arc4random() % 128 / 256.0 ) + 0.5;  //  0.5 to 1.0, away from black
-    UIColor *color = [UIColor colorWithHue:hue saturation:saturation brightness:brightness alpha:1];
-    return color;
+- (void)loadNumberWeight
+{
+    self.currentIndex = 0;
+    self.numbersArray = @[@0, @1, @2, @3, @4, @5, @6, @7, @8, @9];
+    
+    UIFont *font = [UIFont boldSystemFontOfSize: 30];
+    
+    self.firstTickerLabel = [[ADTickerLabel alloc] initWithFrame: CGRectMake(180, 50, 0, font.lineHeight)];
+    self.firstTickerLabel.font = font;
+    self.firstTickerLabel.characterWidth = 22;
+    self.firstTickerLabel.changeTextAnimationDuration = 0.3;
+    [self.view addSubview: self.firstTickerLabel];
+    self.firstTickerLabel.text = [NSString stringWithFormat:@"%@", @"0"];
 }
 
+- (void)loadDataOfTable
+{
+    NSString* plistPath = [[NSBundle mainBundle] pathForResource:@"SampleData" ofType:@"plist"];
+    NSMutableDictionary *plistDict = [[NSMutableDictionary alloc] initWithContentsOfFile:plistPath];
+    self.arrayForPlaces = [plistDict objectForKey:@"Data"];
+}
 
+//For test
+- (void)loadAButton
+{
+    CGRect frame = CGRectMake(90, 200, 200, 60);
+    UIButton *someAddButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    someAddButton.backgroundColor = [UIColor clearColor];
+    [someAddButton setTitle:@"动态添加一个按钮!" forState:UIControlStateNormal];
+    someAddButton.frame = frame;
+    [self.view addSubview:someAddButton];
+}
 
 - (void)didReceiveMemoryWarning
 {

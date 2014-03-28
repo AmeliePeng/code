@@ -43,10 +43,6 @@ NSInteger weight;
     [self.window addSubview: firstTickerLabel];
     firstTickerLabel.text = [NSString stringWithFormat:@"%@", @"0"];
     
-    //[self readDict];
-    
-    
-    
     return YES;
 }
 							

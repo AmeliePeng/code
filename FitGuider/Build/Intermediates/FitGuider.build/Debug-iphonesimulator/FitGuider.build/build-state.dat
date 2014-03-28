@@ -268,12 +268,12 @@ t1396025415
 s1377
 
 N/Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderAppDelegate.o
-t1396026210
+t1396029730
 s77800
 
 N/Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderViewController.o
-t1396026210
-s109108
+t1396031029
+s114564
 
 N/Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/MWWindow.o
 t1396025418
@@ -300,11 +300,11 @@ t1396025418
 s114988
 
 N/Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app
-t1396026210
+t1396031029
 s680
 
 N/Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app.dSYM
-t1396025419
+t1396030830
 s102
 
 N/Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app/Base.lproj/Main_iPad.storyboardc
@@ -324,8 +324,8 @@ t1396020332
 s4361
 
 N/Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuider
-t1396026210
-s176340
+t1396031029
+s180908
 
 N/Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuiderViewController.nib
 t1396024002
@@ -437,19 +437,19 @@ t1396019656
 s321
 
 N/Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderAppDelegate.m
-c000000005335AB520000000000000D0F
-t1396026194
-s3343
+c000000005335AC8D0000000000000CE9
+t1396026509
+s3305
 
 N/Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderViewController.h
-c00000000533591C80000000000000151
-t1396019656
+c000000005335B91F0000000000000151
+t1396029727
 s337
 
 N/Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderViewController.m
-c000000005335AB60000000000000209C
-t1396026208
-s8348
+c000000005335BE3100000000000022AC
+t1396031025
+s8876
 
 N/Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderViewController.xib
 c0000000052F5E8EC0000000000000898
@@ -1021,7 +1021,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies48a3eae1e2e5b841^b020f1e1e2e5b841^---0#1#1#--18"Check dependencies36"85B37A83-15E4-498C-91AC-3C68AC8F6669-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies59a73eb5f5e5b841^5d163fb5f5e5b841^---0#1#1#--18"Check dependencies36"4CD8D333-C6CC-4EFB-A9B0-205AA5FD14C8-
 
 CCompileAssetCatalog /Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app /Users/aaronyang/Desktop/code/FitGuider/FitGuider/Images.xcassets
 r0
@@ -1252,8 +1252,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile
 bB72C83A6-AB3A-4B7A-A50D-EDDBFB8FBA57
 
 CCompileC Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderAppDelegate.o /Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s417719009.943513
-e417719010.104019
+s417722527.434251
+e417722531.031134
 r1
 xCompileC
 xBuild/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderAppDelegate.o
@@ -1266,8 +1266,8 @@ d/Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderAppDelegate.m
 d/Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderAppDelegate.h
 d/Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderViewController.h
 d/Users/aaronyang/Desktop/code/FitGuider/ADTickerLabel.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderAppDelegate.m230"CompileC Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderAppDelegate.o FitGuider/FitGuiderAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilercfa4f1e1e2e5b841^3ca21ae2e2e5b841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderAppDelegate.m0000000000000000^3781"CompileC Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderAppDelegate.o FitGuider/FitGuiderAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aaronyang/Desktop/code/FitGuider    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/aaronyang/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/FitGuider-generated-files.hmap -I/Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/FitGuider-own-target-headers.hmap -I/Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/FitGuider-all-target-headers.hmap -iquote /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/FitGuider-project-headers.hmap -I/Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/DerivedSources/x86_64 -I/Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/DerivedSources -F/Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator -include /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/PrecompiledHeaders/FitGuider-Prefix-dciwotkijyuhtnejvfsiffpxwdpm/FitGuider-Prefix.pch -MMD -MT dependencies -MF /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderAppDelegate.d --serialize-diagnostics /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderAppDelegate.dia -c /Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderAppDelegate.m -o /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderAppDelegate.o36"D7AE3DB3-16C9-48FA-B14B-5CFA1253C657-
-bD02187AC-AC1D-44D7-A825-CDA475893D3C
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderAppDelegate.m230"CompileC Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderAppDelegate.o FitGuider/FitGuiderAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler37516f9ff0e5b841^94f907a3f0e5b841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderAppDelegate.m0000000000000000^3781"CompileC Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderAppDelegate.o FitGuider/FitGuiderAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aaronyang/Desktop/code/FitGuider    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/aaronyang/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/FitGuider-generated-files.hmap -I/Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/FitGuider-own-target-headers.hmap -I/Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/FitGuider-all-target-headers.hmap -iquote /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/FitGuider-project-headers.hmap -I/Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/DerivedSources/x86_64 -I/Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/DerivedSources -F/Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator -include /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/PrecompiledHeaders/FitGuider-Prefix-dciwotkijyuhtnejvfsiffpxwdpm/FitGuider-Prefix.pch -MMD -MT dependencies -MF /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderAppDelegate.d --serialize-diagnostics /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderAppDelegate.dia -c /Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderAppDelegate.m -o /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderAppDelegate.o36"0FE5440B-E466-4DD6-B874-5A9D3E6272BF-
+bB339F1EE-E1A3-4D30-A2B0-C1FA8DC7131C
 
 CCompileC Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderAppDelegate.o /Users/aaronyang/Downloads/FitGuider/FitGuider/FitGuiderAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s417717592.489977
@@ -1287,8 +1287,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile
 bE5230486-2D67-4A73-9A39-4026F3C8A2EF
 
 CCompileC Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderViewController.o /Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s417719009.943085
-e417719010.117824
+s417723829.246745
+e417723829.350478
 r1
 xCompileC
 xBuild/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderViewController.o
@@ -1305,12 +1305,12 @@ d/Users/aaronyang/Desktop/code/FitGuider/ADTickerLabel.h
 d/Users/aaronyang/Desktop/code/FitGuider/FitGuider/FDGraphView.h
 d/Users/aaronyang/Desktop/code/FitGuider/FitGuider/FDGraphScrollView.h
 d/Users/aaronyang/Desktop/code/FitGuider/FitGuider/MWWindow.h
-o/Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderViewController.m:198:17: warning: incompatible pointer to integer conversion assigning to 'NSInteger' (aka 'long') from 'id' [-Wint-conversion]
+o/Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderViewController.m:226:17: warning: incompatible pointer to integer conversion assigning to 'NSInteger' (aka 'long') from 'id' [-Wint-conversion]
 o    self.weight = [dict_weight objectForKey:@"weight"];
 o                ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 o1 warning generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderViewController.m236"CompileC Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderViewController.o FitGuider/FitGuiderViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb58bf1e1e2e5b841^95291ee2e2e5b841^-335"/Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderViewController.m:198:17: warning: incompatible pointer to integer conversion assigning to 'NSInteger' (aka 'long') from 'id' [-Wint-conversion]    self.weight = [dict_weight objectForKey:@"weight"];                ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@90"Incompatible pointer to integer conversion assigning to 'NSInteger' (aka 'long') from 'id'-417719010#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@82"file:///Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderViewController.m0000000000000000^197#16#197#16#7139#0#22"Value Conversion Issue1(3@82"file:///Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderViewController.m0000000000000000^197#18#197#54#7141#35#-0#0#1#-19%DVTDocumentLocation4@82"file:///Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderViewController.m0000000000000000^3799"CompileC Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderViewController.o FitGuider/FitGuiderViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aaronyang/Desktop/code/FitGuider    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/aaronyang/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/FitGuider-generated-files.hmap -I/Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/FitGuider-own-target-headers.hmap -I/Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/FitGuider-all-target-headers.hmap -iquote /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/FitGuider-project-headers.hmap -I/Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/DerivedSources/x86_64 -I/Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/DerivedSources -F/Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator -include /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/PrecompiledHeaders/FitGuider-Prefix-dciwotkijyuhtnejvfsiffpxwdpm/FitGuider-Prefix.pch -MMD -MT dependencies -MF /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderViewController.d --serialize-diagnostics /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderViewController.dia -c /Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderViewController.m -o /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderViewController.o36"E381CC56-3021-45E8-9F91-5EA503AA1559-
-bD02187AC-AC1D-44D7-A825-CDA475893D3C
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderViewController.m236"CompileC Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderViewController.o FitGuider/FitGuiderViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler91483fb5f5e5b841^1fb959b5f5e5b841^-335"/Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderViewController.m:226:17: warning: incompatible pointer to integer conversion assigning to 'NSInteger' (aka 'long') from 'id' [-Wint-conversion]    self.weight = [dict_weight objectForKey:@"weight"];                ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@90"Incompatible pointer to integer conversion assigning to 'NSInteger' (aka 'long') from 'id'-417723829#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@82"file:///Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderViewController.m0000000000000000^225#16#225#16#7667#0#22"Value Conversion Issue1(3@82"file:///Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderViewController.m0000000000000000^225#18#225#54#7669#35#-0#0#1#-19%DVTDocumentLocation4@82"file:///Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderViewController.m0000000000000000^3799"CompileC Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderViewController.o FitGuider/FitGuiderViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aaronyang/Desktop/code/FitGuider    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/aaronyang/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/FitGuider-generated-files.hmap -I/Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/FitGuider-own-target-headers.hmap -I/Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/FitGuider-all-target-headers.hmap -iquote /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/FitGuider-project-headers.hmap -I/Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/DerivedSources/x86_64 -I/Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/DerivedSources -F/Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator -include /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/PrecompiledHeaders/FitGuider-Prefix-dciwotkijyuhtnejvfsiffpxwdpm/FitGuider-Prefix.pch -MMD -MT dependencies -MF /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderViewController.d --serialize-diagnostics /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderViewController.dia -c /Users/aaronyang/Desktop/code/FitGuider/FitGuider/FitGuiderViewController.m -o /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderViewController.o36"94FB890F-5BEA-4EDA-A07D-26D2522FBF11-
+b62B77BC8-C90B-46DA-8341-1AA4B5E1BED0
 
 CCompileC Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuiderViewController.o /Users/aaronyang/Downloads/FitGuider/FitGuider/FitGuiderViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s417717638.972698
@@ -1599,14 +1599,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Bu
 b88C34C9D-3FE4-4178-AA69-6EB8855B49D1
 
 CGenerateDSYMFile /Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app.dSYM /Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuider
-s417719010.996404
-e417719011.040509
+s417723829.393008
+e417723829.423165
 r1
 xGenerateDSYMFile
 x/Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app.dSYM
 x/Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuider
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Generate /Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app.dSYM133"GenerateDSYMFile Build/Products/Debug-iphonesimulator/FitGuider.app.dSYM Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuiderea20ffe2e2e5b841^965f0ae3e2e5b841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app.dSYM/0000000000000000^676"GenerateDSYMFile Build/Products/Debug-iphonesimulator/FitGuider.app.dSYM Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuider    cd /Users/aaronyang/Desktop/code/FitGuider    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuider -o /Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app.dSYM36"E020D196-18CF-45D3-AFAB-A0105CD69C26-
-bD02187AC-AC1D-44D7-A825-CDA475893D3C
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Generate /Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app.dSYM133"GenerateDSYMFile Build/Products/Debug-iphonesimulator/FitGuider.app.dSYM Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuiderd2a864b5f5e5b841^7e536cb5f5e5b841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app.dSYM/0000000000000000^676"GenerateDSYMFile Build/Products/Debug-iphonesimulator/FitGuider.app.dSYM Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuider    cd /Users/aaronyang/Desktop/code/FitGuider    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuider -o /Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app.dSYM36"00A9A2F2-E00E-422C-B85D-B91AEFCB4C81-
+b62B77BC8-C90B-46DA-8341-1AA4B5E1BED0
 
 CGenerateDSYMFile /Users/aaronyang/Downloads/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app.dSYM /Users/aaronyang/Downloads/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuider
 s417717639.110617
@@ -1619,8 +1619,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Genera
 bEE9CC841-6323-4B81-BDEA-67B29849F434
 
 CLd /Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuider normal x86_64
-s417719010.119524
-e417719010.272427
+s417723829.352419
+e417723829.389538
 r1
 xLd
 x/Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuider
@@ -1673,12 +1673,12 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
 d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
 d/usr/lib/system/libcache.dylib
 d/usr/lib/system/libcommonCrypto.dylib
 d/usr/lib/system/libcompiler_rt.dylib
 d/usr/lib/system/libcopyfile.dylib
 d/usr/lib/system/libcorecrypto.dylib
-d/usr/lib/system/libdyld.dylib
 d/usr/lib/system/libkeymgr.dylib
 d/usr/lib/system/liblaunch.dylib
 d/usr/lib/system/libmacho.dylib
@@ -1700,9 +1700,8 @@ d/usr/lib/system/libsystem_sandbox.dylib
 d/usr/lib/system/libsystem_stats.dylib
 d/usr/lib/system/libunc.dylib
 d/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Link /Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuider77"Ld Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuider normal x86_64daa81ee2e2e5b841^e4be45e2e2e5b841^---0#0#1#--1423"Ld Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuider normal x86_64    cd /Users/aaronyang/Desktop/code/FitGuider    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator -F/Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator -filelist /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuider.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuider_dependency_info.dat -o /Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuider36"A059FBCB-00F5-42AD-BDA1-73C77EC8061A-
-bD02187AC-AC1D-44D7-A825-CDA475893D3C
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Link /Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuider77"Ld Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuider normal x86_64f8545ab5f5e5b841^7cb963b5f5e5b841^---0#0#1#--1423"Ld Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuider normal x86_64    cd /Users/aaronyang/Desktop/code/FitGuider    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator -F/Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator -filelist /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuider.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/aaronyang/Desktop/code/FitGuider/Build/Intermediates/FitGuider.build/Debug-iphonesimulator/FitGuider.build/Objects-normal/x86_64/FitGuider_dependency_info.dat -o /Users/aaronyang/Desktop/code/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuider36"F17871F7-7A7F-4688-A7DE-CA08F3925493-
+b62B77BC8-C90B-46DA-8341-1AA4B5E1BED0
 
 CLd /Users/aaronyang/Downloads/FitGuider/Build/Products/Debug-iphonesimulator/FitGuider.app/FitGuider normal x86_64
 s417717639.070902
