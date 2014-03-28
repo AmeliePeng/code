@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA23340318D2673200186096 /* FDGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA23340018D2673200186096 /* FDGraphView.m */; };
+		AA23340418D2673200186096 /* FDGraphScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA23340218D2673200186096 /* FDGraphScrollView.m */; };
+		AA23340618D28C2E00186096 /* weight.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA23340518D28C2E00186096 /* weight.plist */; };
 		AAAEB6E318CB683300EB38D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAEB6E218CB683300EB38D3 /* Foundation.framework */; };
 		AAAEB6E518CB683300EB38D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAEB6E418CB683300EB38D3 /* CoreGraphics.framework */; };
 		AAAEB6E718CB683300EB38D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAEB6E618CB683300EB38D3 /* UIKit.framework */; };
@@ -33,6 +36,8 @@
 		CD1B073618CE66C700A9AE2A /* images-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD1B073218CE66C700A9AE2A /* images-2.jpeg */; };
 		CD1B073718CE66C700A9AE2A /* images-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD1B073318CE66C700A9AE2A /* images-3.jpeg */; };
 		CD95559418D2300400D96893 /* ADTickerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD95559318D2300400D96893 /* ADTickerLabel.m */; };
+		CDE94F3C18E5CE090091DA0F /* MWWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE94F3B18E5CE090091DA0F /* MWWindow.m */; };
+		CDE94F3E18E5CE120091DA0F /* FitGuiderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE94F3D18E5CE120091DA0F /* FitGuiderViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +51,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA2333FF18D2673200186096 /* FDGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDGraphView.h; sourceTree = "<group>"; };
+		AA23340018D2673200186096 /* FDGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDGraphView.m; sourceTree = "<group>"; };
+		AA23340118D2673200186096 /* FDGraphScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDGraphScrollView.h; sourceTree = "<group>"; };
+		AA23340218D2673200186096 /* FDGraphScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDGraphScrollView.m; sourceTree = "<group>"; };
+		AA23340518D28C2E00186096 /* weight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = weight.plist; sourceTree = "<group>"; };
 		AAAEB6DF18CB683300EB38D3 /* FitGuider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitGuider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAAEB6E218CB683300EB38D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AAAEB6E418CB683300EB38D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -80,6 +90,9 @@
 		CD1B073318CE66C700A9AE2A /* images-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-3.jpeg"; sourceTree = "<group>"; };
 		CD95559218D2300400D96893 /* ADTickerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTickerLabel.h; sourceTree = "<group>"; };
 		CD95559318D2300400D96893 /* ADTickerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTickerLabel.m; sourceTree = "<group>"; };
+		CDE94F3A18E5CE090091DA0F /* MWWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWWindow.h; sourceTree = "<group>"; };
+		CDE94F3B18E5CE090091DA0F /* MWWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWWindow.m; sourceTree = "<group>"; };
+		CDE94F3D18E5CE120091DA0F /* FitGuiderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FitGuiderViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +119,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA2333FE18D2670700186096 /* WeightChart */ = {
+			isa = PBXGroup;
+			children = (
+				AA2333FF18D2673200186096 /* FDGraphView.h */,
+				AA23340018D2673200186096 /* FDGraphView.m */,
+				AA23340118D2673200186096 /* FDGraphScrollView.h */,
+				AA23340218D2673200186096 /* FDGraphScrollView.m */,
+				AA23340518D28C2E00186096 /* weight.plist */,
+			);
+			name = WeightChart;
+			sourceTree = "<group>";
+		};
 		AAAEB6D618CB683300EB38D3 = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +168,8 @@
 		AAAEB6E818CB683300EB38D3 /* FitGuider */ = {
 			isa = PBXGroup;
 			children = (
+				CDE94F3918E5CDE70091DA0F /* SubWindow */,
+				AA2333FE18D2670700186096 /* WeightChart */,
 				CD1B073818CE66E400A9AE2A /* MainView */,
 				AAAEB6FD18CB683300EB38D3 /* Images.xcassets */,
 				AAAEB6E918CB683300EB38D3 /* Supporting Files */,
@@ -216,6 +243,16 @@
 				CD95559318D2300400D96893 /* ADTickerLabel.m */,
 			);
 			name = ADTickerLabel;
+			sourceTree = "<group>";
+		};
+		CDE94F3918E5CDE70091DA0F /* SubWindow */ = {
+			isa = PBXGroup;
+			children = (
+				CDE94F3D18E5CE120091DA0F /* FitGuiderViewController.xib */,
+				CDE94F3A18E5CE090091DA0F /* MWWindow.h */,
+				CDE94F3B18E5CE090091DA0F /* MWWindow.m */,
+			);
+			name = SubWindow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA23340618D28C2E00186096 /* weight.plist in Resources */,
 				CD1B073418CE66C700A9AE2A /* Bunny.png in Resources */,
 				CD1B072418CE65F800A9AE2A /* SampleData.plist in Resources */,
 				CD1B072E18CE66AA00A9AE2A /* SampleCell.xib in Resources */,
@@ -304,6 +342,7 @@
 				AAAEB6F618CB683300EB38D3 /* Main_iPhone.storyboard in Resources */,
 				CD1B073718CE66C700A9AE2A /* images-3.jpeg in Resources */,
 				AAAEB6ED18CB683300EB38D3 /* InfoPlist.strings in Resources */,
+				CDE94F3E18E5CE120091DA0F /* FitGuiderViewController.xib in Resources */,
 				CD1B073618CE66C700A9AE2A /* images-2.jpeg in Resources */,
 				CD1B072318CE65F800A9AE2A /* sample.gif in Resources */,
 				CD1B073518CE66C700A9AE2A /* images-1.jpeg in Resources */,
@@ -326,8 +365,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD1B072D18CE66AA00A9AE2A /* SampleCell.m in Sources */,
+				CDE94F3C18E5CE090091DA0F /* MWWindow.m in Sources */,
 				CD95559418D2300400D96893 /* ADTickerLabel.m in Sources */,
 				AAAEB6FC18CB683300EB38D3 /* FitGuiderViewController.m in Sources */,
+				AA23340318D2673200186096 /* FDGraphView.m in Sources */,
+				AA23340418D2673200186096 /* FDGraphScrollView.m in Sources */,
 				AAAEB6F318CB683300EB38D3 /* FitGuiderAppDelegate.m in Sources */,
 				AAAEB6EF18CB683300EB38D3 /* main.m in Sources */,
 				CD1B072818CE66A200A9AE2A /* DetailViewController.m in Sources */,

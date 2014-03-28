@@ -10,12 +10,13 @@
 #import "FitGuiderViewController.h"
 @implementation FitGuiderAppDelegate
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 //    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 //    
 //    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:[NSBundle mainBundle]];
-//    
+//
 //    UINavigationController *navigationController = (UINavigationController*)[storyboard instantiateViewControllerWithIdentifier: @"Main_iPhone"];
 //    navigationController.navigationBarHidden = YES;
 //    

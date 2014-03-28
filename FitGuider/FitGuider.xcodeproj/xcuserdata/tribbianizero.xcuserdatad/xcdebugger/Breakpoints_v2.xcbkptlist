@@ -9,13 +9,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ADTickerLabel.m"
-            timestampString = "416428807.954481"
+            filePath = "FitGuider/FitGuiderViewController.m"
+            timestampString = "417026754.769547"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
-            landmarkName = "-setSelectedCharacter:animated:"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "-writeDict:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,11 +26,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FitGuider/FitGuiderViewController.m"
-            timestampString = "417716803.687473"
+            timestampString = "417026754.769547"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "180"
-            endingLineNumber = "180"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "-writeDict:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FitGuider/FitGuiderViewController.m"
+            timestampString = "417032236.925724"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
             landmarkName = "-writeDict:"
             landmarkType = "5">
          </BreakpointContent>

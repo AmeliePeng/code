@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Date</key>
+	<dict>
+		<key>item 0</key>
+		<date>2014-03-14T02:32:46Z</date>
+		<key>item 1</key>
+		<date>2014-03-14T02:32:47Z</date>
+		<key>item 2</key>
+		<date>2014-03-14T02:32:49Z</date>
+		<key>item 3</key>
+		<date>2014-03-14T02:32:51Z</date>
+		<key>item 4</key>
+		<date>2014-03-14T02:32:52Z</date>
+		<key>item 5</key>
+		<date>2014-03-14T02:32:54Z</date>
+		<key>item 6</key>
+		<date>2014-03-14T02:32:56Z</date>
+		<key>item 7</key>
+		<date>2014-03-14T02:32:59Z</date>
+	</dict>
+	<key>weight</key>
+	<array>
+		<integer>120</integer>
+		<integer>119</integer>
+		<integer>116</integer>
+		<integer>114</integer>
+		<integer>112</integer>
+		<integer>111</integer>
+		<integer>110</integer>
+		<integer>109</integer>
+	</array>
+</dict>
+</plist>
